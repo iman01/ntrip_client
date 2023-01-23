@@ -8,12 +8,12 @@ from launch.actions import SetEnvironmentVariable
 def generate_launch_description():
       return LaunchDescription([
           # Declare arguments with default values
-          DeclareLaunchArgument('host',                  default_value='20.185.11.35'),
+          DeclareLaunchArgument('host',                  default_value='3.23.52.207'),
           DeclareLaunchArgument('port',                  default_value='2101'),
-          DeclareLaunchArgument('mountpoint',            default_value='VTRI_RTCM3'),
+          DeclareLaunchArgument('mountpoint',            default_value='GablinDolniak'),
           DeclareLaunchArgument('ntrip_version',         default_value='None'),
           DeclareLaunchArgument('authenticate',          default_value='True'),
-          DeclareLaunchArgument('username',              default_value='user'),
+          DeclareLaunchArgument('username',              default_value='iman.esfandiyar@put.poznan.pl'),
           DeclareLaunchArgument('password',              default_value='pass'),
           DeclareLaunchArgument('ssl',                   default_value='False'),
           DeclareLaunchArgument('cert',                  default_value='None'),
